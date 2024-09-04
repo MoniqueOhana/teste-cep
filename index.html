@@ -12,43 +12,80 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-md text-bg-dark navbar-dark">
-       
-        <div class="container-fluid">
-          
-          <a href="index.html" class="navbar-brand h1 mb-0">
-           
-            <i class="bi bi-search"></i>
-            Buscador de Cep
-          </a>
-          
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#nav"
-            aria-controls="nav"
-            aria-label="Expand Navegation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link active" aria-current="page"
-                  >Início</a>
-              </li>
-              <li class="nav-item"> 
-                <a href="buscar.html" class="nav-link">Buscar Cep</a>
-              </li>
-              <li class="nav-item">
-                <a href="sobre.html" class="nav-link">Sobre</a>
-              </li>
-            </ul>
+<div class="min-vh-100">
+  <nav class="navbar navbar-expand-md text-bg-dark navbar-dark">
+  
+          <div class="container-fluid">
+  
+            <a href="index.html" class="navbar-brand h1 mb-0">
+  
+              <i class="bi bi-search"></i>
+              Buscador de Cep
+            </a>
+  
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#nav"
+              aria-controls="nav"
+              aria-label="Expand Navegation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="nav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link active" aria-current="page"
+                    >Início</a>
+                </li>
+                <li class="nav-item">
+                  <a href="buscar.html" class="nav-link">Buscar Cep</a>
+                </li>
+                <li class="nav-item">
+                  <a href="sobre.html" class="nav-link">Sobre</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-      <main class="container-fluid bg-image text-bg-dark flex-grow-1 d-flex align-items-center justify-content-center" ></main>
+        </nav>
+        <main class="flex-grow-1 d-flex">
+          <div id="main-bg-img"
+          class="text-bg-dark container-fluid flex-grow-1 d-flex bg-image align-items-center justify-content-center">
+            <div class="px-4 py-5 mb-3 text-center">
+              <i id="logo" class="bi bi-search mb-4"></i>
+              <h1 class="display-5 fw-bold">Buscador de CEP</h1>
+              <div class="mx-auto col-lg-6 col-sm-8 col-10">
+                <p class="lead mb-4">
+                Buscar CEP nunca foi tão simples. Digite seu endereço e deixe que
+                nossa ferramenta faça o trabalho pesado para você.</p>
+                <button type="button" class="btn btn-primary btn-lg px-5" onclick="window.location.href='/buscar.html';">Faça sua busca</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-6" onclick="window.location.href='/sobre.html';">Saiba mais</button>
+              </div>
+  
+            </div>
+          </div>
+        </main>
+        <footer class="text-center text-bg-dark pt-4 mb-4">
+          <section class="container">
+            <a href="" class="icon-link link-primary link-opacity-50-hover mx-2">
+              <i class="bi bi-facebook"></i></a>
+            <a href="" class="icon-link link-warning link-opacity-50-hover mx-2">
+              <i class="bi bi-instagram"></i></a>
+            <a href="" class="icon-link link-danger link-opacity-50-hover mx-2">
+              <i class="bi bi-youtube"></i></a>
+            <a href="" class="icon-link link-success link-opacity-50-hover mx-2">
+              <i class="bi bi-whatsapp"></i></a>
+            <div class="py-3">
+              © 2024 Copyright: Buscador de Cep
+            </div>
+  
+  
+          </section>
+  
+  
+        </footer>
+</div>
 </body>
 </html>
